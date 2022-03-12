@@ -1,0 +1,101 @@
+body{
+  margin: 20px;
+  padding: 10px;
+}
+header{
+  background:url(flywheel.jpg) center center;
+  background-size:100% 100% ;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+h1{
+  margin-top: 30px;
+  font-size: 25px;
+  padding-top: 20px;
+  text-align:center;
+  color:rgb(255,255,255);
+  text-transform:uppercase;
+}
+nav a{
+  font-weight: bolder;
+  text-decoration: none;
+  border-radius: 8px;
+  opacity: .6;
+  text-align: center;
+  margin-left: 80px;margin-right: 80px;margin-bottom: 40px;
+  padding: 15px 40px;
+  display: inline-block;
+  color:rgb(0,0,0);
+  background-color:rgb(180,180,180);
+}
+
+nav a:hover{
+  background-color: white;
+  opacity: 1;
+
+}
+.left{
+  margin-top: -1.5%;
+  padding: 20px 10px;
+  height: 100%;
+  width: 200px;
+  text-align: center;
+  background-color: darkgreen;
+  height: 100vh;
+  display: inline-block;
+  float: left;
+}
+aside{
+  width: 20%;
+  height: 100vh;
+}
+aside img{
+  display: block;
+  border-radius: 3px;
+  margin: 15px 10px;
+  border: 3px solid black;
+  height: 100px;
+  width: 145px;
+}
+.right{
+  display: block;
+  background-color:rgb(255,255,255)
+}
+h2{
+  text-transform:uppercase;
+  color:rgb(0, 0, 0);
+}
+
+
+/*Styling The Table......*/
+table{
+  width: 55%;
+  margin-top: 2%;
+  margin-left: 23%;
+  font-weight: bold;
+  font-family: serif, arial, "Times New Roman", cursive;
+}
+
+th{
+  background-color: #65b318;
+  color: #ffffff;
+  padding:14px;
+  border: 1px solid lime;
+  border-radius: 5px;
+}
+#Tname{
+  text-align: left;
+}
+td{
+  opacity: .8;
+  border-radius: 4px;
+  background-color: #75dd75;
+  padding: 14px;
+  color: #000000;
+}
+tr:not(:first-child):hover{
+  opacity: .5;
+}
+.secdata{
+  text-align: center;
+}
